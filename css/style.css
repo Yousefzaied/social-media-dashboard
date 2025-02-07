@@ -1,0 +1,48 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color:#1e202a ;
+}
+
+:root {
+    --body : #1e202a
+    --nav: #252a41
+    --card: #8b97c6
+}
+a{
+    text-decoration: none;
+}
+/* start-nav */
+nav{
+    justify-content: space-around;
+    background-color: #252a41 ;
+    
+}
+
+/* start-follwers-infromaation */
+.row {
+    justify-content: center;
+  }
+  
+.follwers-infromaation .crd,
+.over-view .crd{
+   background-color: #252a41;
+   border-radius: 5px;
+}
+.follwers-infromaation .crd span,
+.over-view .crd  p{
+    font-size: 12px;
+    font-weight: bold;
+}
+.follwers-infromaation .crd:hover,
+.over-view .crd:hover{
+    background-color: #394062;
+    transition-duration: .3s;
+    cursor: pointer;
+}
+.over-view h3 {
+    margin-left: 8rem;
+}
+
+
